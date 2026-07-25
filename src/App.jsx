@@ -97,7 +97,7 @@ function App() {
 
       <header className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Hi, I'm <span className="name">Maria <Tabassam></Tabassam></span></h1>
+          <h1 className="hero-title">Hi, I'm <span className="name"> "Maria Tabassam "</span></h1>
           <p className="hero-subtitle">Frontend Developer | JavaScript Enthusiast | Building Beautiful Web Experiences</p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">View My Work</a>
