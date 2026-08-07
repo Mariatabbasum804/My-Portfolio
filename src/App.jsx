@@ -26,7 +26,7 @@ function App() {
       description: "Interactive quiz with instant feedback, scoring system, and restart functionality",
       image: "🧠",
       tags: ["React", "State Management"],
-      link: "https://spontaneous-stroopwafel-eca9cc.netlify.app/"
+      link: "https://-remarkablepuppy-80d1f5.netlify.app/"
     },
     {
       title: "Recipe Finder",
@@ -48,6 +48,20 @@ function App() {
       image: "📝",
       tags: ["React", "react-markdown"],
       link: "https://inquisitive-basbousa-089398.netlify.app/"
+    },
+    {
+      title: "Abdul Jabbar Tubewell Boring & Services",
+      description: "Business website for a tubewell boring and drilling services company, showcasing services, contact details, and service areas in a clean bilingual layout",
+      image: "🚰",
+      tags: ["React", "Business Website", "Responsive"],
+      link: "https://classy-stroopwafel-f1b39b.netlify.app/"
+    },
+    {
+      title: "Terra & Bloom — Barrier Repair Cream",
+      description: "Animated single-page product showcase for a skincare brand, featuring scroll-triggered reveals, an interactive ingredient breakdown, and a sticky add-to-cart bar",
+      image: "🧴",
+      tags: ["HTML/CSS/JS", "Animations", "E-commerce UX"],
+      link: "https://legendary-caramel-34808f.netlify.app/"
     }
   ];
 
@@ -81,7 +95,7 @@ function App() {
         <div className="nav-container">
           <div className="logo">
             <span className="logo-emoji">💻</span>
-            <span>Your Portfolio</span>
+            <span>Maria Tabassam</span>
           </div>
           <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             ☰
@@ -189,7 +203,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <p>© {new Date().getFullYear()} Your Name. Built with React & ❤️</p>
+        <p>© {new Date().getFullYear()} Maria Tabassam. Built with React & ❤️</p>
       </footer>
     </div>
   );
